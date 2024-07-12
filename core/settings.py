@@ -88,7 +88,7 @@ DATABASES = {
         'HOST': '10.1.17.7',
         'PORT': '1433',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 22 for SQL Server',
             'extra_params': 'TrustServerCertificate=yes',
         },
     }
