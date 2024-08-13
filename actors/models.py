@@ -1,8 +1,8 @@
 from django.db import models
 
 NATIONALITY_CHOICES = (
-    ('BR', 'Brasil'),
-    ('EUA', 'Estados Unidos'),
+    ('USA', 'Estados Unidos'),
+    ('BRAZIL', 'Brasil'),
 )
 
 
