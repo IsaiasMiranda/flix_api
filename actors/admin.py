@@ -5,5 +5,5 @@ from actors.models import Actor
 
 @admin.register(Actor)
 class ActorAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name_actor', 'birthday', 'nationality')
-    search_fields = ('name_actor',)
+    list_display = ('id', 'actor', 'birthday', 'nationality')
+    search_fields = ('actor',)
