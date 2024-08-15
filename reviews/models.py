@@ -13,3 +13,5 @@ class Review(models.Model):
         ])
     comment = models.TextField(blank=True, null=True)
     
+    class Meta:
+        db_table = 'api_review'
