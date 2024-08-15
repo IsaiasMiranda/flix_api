@@ -7,7 +7,7 @@ NATIONALITY_CHOICES = (
 
 
 class Actor(models.Model):
-    name = models.CharField(max_length=200)
+    actor = models.CharField(max_length=200)
     birthday = models.DateField(null=True, blank=True)
     nationality = models.CharField(
         max_length=100,
@@ -15,9 +15,6 @@ class Actor(models.Model):
         blank=True,
         null=True
     )
-
-    class Meta:
-        db_table = 'actor'
-
+    
     def __str__(self):
-        return self.name
+        return self.actor

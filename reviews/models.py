@@ -12,6 +12,4 @@ class Review(models.Model):
             MaxValueValidator(5, 'Avaliação não pode ser superior a 5 estrelas')
         ])
     comment = models.TextField(blank=True, null=True)
-
-    class Meta:
-        db_table = 'reviews'
+    
