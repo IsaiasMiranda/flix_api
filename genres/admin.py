@@ -4,5 +4,5 @@ from genres.models import Genre
 
 @admin.register(Genre)
 class GenreAdmin(admin.ModelAdmin):
-    list_display = ('name',)
-    list_filter = ('name',)
+    list_display = ('genre',)
+    list_filter = ('genre',)
