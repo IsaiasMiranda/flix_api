@@ -15,6 +15,8 @@ class Actor(models.Model):
         blank=True,
         null=True
     )
+    class Meta:
+        db_table = 'api_actor'
     
     def __str__(self):
         return self.name_actor
