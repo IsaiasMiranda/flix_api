@@ -15,6 +15,7 @@ class Actor(models.Model):
         blank=True,
         null=True
     )
+    
     class Meta:
         db_table = 'api_actor'
     
