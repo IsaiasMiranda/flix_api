@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-31qkgf2&werv@r&@&an9=fe^_1j0oclr!^yqx2#e5vmm@^(&to
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['appflixapi.local', '127.0.0.1', 'localhost']
 
 
 # Application definition
