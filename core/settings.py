@@ -83,6 +83,7 @@ DATABASES = {
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
             'extra_params': 'TrustServerCertificate=yes',
+            'extra_params': 'Connection Timeout=30;',
         },
     }
 }
