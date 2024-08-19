@@ -82,11 +82,11 @@ DATABASES = {
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'extra_params': 'TrustServerCertificate=yes',
-            'extra_params': 'Connection Timeout=30;',
+            'extra_params': 'TrustServerCertificate=yes;Connection Timeout=30;',
         },
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
