@@ -74,18 +74,19 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'sql_server.pyodbc',
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
-        'PASSWORD': 'ismtech@write',
-        'HOST': '192.168.0.167',
+        'PASSWORD': 'ismtech@isaias',
+        'HOST': 'serverdw',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'extra_params': 'TrustServerCertificate=yes',
-        },
+            'extra_params': 'TrustServerCertificate=yes;'
+        }
     }
 }
+
 
 
 # Password validation
