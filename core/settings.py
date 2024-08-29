@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@isaias',
