@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
 
     #'authentication',
+    'authentication.apps.AuthenticationConfig',
     'genres',
     'actors',
     'movies',
