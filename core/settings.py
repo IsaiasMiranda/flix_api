@@ -31,12 +31,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
 
-    #'authentication',
     'authentication.apps.AuthenticationConfig',
-    'genres',
-    'actors',
-    'movies',
-    'reviews',
+    'genres.apps.GenresConfig',
+    'actors.apps.ActorsConfig',
+    'movies.apps.MoviesConfig',
+    'reviews.apps.ReviewsConfig',
 ]
 
 MIDDLEWARE = [
