@@ -79,12 +79,12 @@ DATABASES = {
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
         'HOST': 'serverdw',
-       'PORT': '1433',
-       'OPTIONS': {
+        'PORT': '1433',
+        'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
             'extra_params': 'TrustServerCertificate=yes;'
-       }
-  }
+        }
+    }
 }
 
 # Password validation
