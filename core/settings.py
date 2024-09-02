@@ -72,30 +72,20 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'mssql',
-#        'NAME': 'RGN_STG',
-#        'USER': 'powerbi_w',
-#        'PASSWORD': 'ismtech@write',
-#        'HOST': 'serverdw',
-#       'PORT': '1433',
-#       'OPTIONS': {
-#            'driver': 'ODBC Driver 17 for SQL Server',
-#            'extra_params': 'TrustServerCertificate=yes;'
-#       }
-#  }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'mssql',
+        'NAME': 'RGN_STG',
+        'USER': 'powerbi_w',
+        'PASSWORD': 'ismtech@write',
+        'HOST': 'serverdw',
+       'PORT': '1433',
+       'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+            'extra_params': 'TrustServerCertificate=yes;'
+       }
+  }
 }
-
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
