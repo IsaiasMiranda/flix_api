@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'django.db.backends.sql_server.pyodbc',
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
