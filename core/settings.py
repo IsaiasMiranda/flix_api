@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-31qkgf2&werv@r&@&an9=fe^_1j0oclr!^yqx2#e5vmm@^(&to
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['appflixapi.local']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
