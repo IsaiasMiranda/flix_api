@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
-        'HOST': 'serverdw',
+        'HOST': '192.168.0.167',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
