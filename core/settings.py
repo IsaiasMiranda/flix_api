@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'RGN_STG',
+        'NAME': 'DJANGO',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
         'HOST': '10.2.50.23',
