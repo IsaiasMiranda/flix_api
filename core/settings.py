@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-31qkgf2&werv@r&@&an9=fe^_1j0oclr!^yqx2#e5vmm@^(&to
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['appflixapi.local']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'RGN_STG',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
-        'HOST': 'serverdw',
+        'HOST': '10.2.50.23',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
