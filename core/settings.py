@@ -76,8 +76,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'mssql',
         'NAME': 'DJANGO',
-        'USER': 'powerbi_w',
-        'PASSWORD': 'ismtech@write',
+        'USER': 'sa',
+        'PASSWORD': '@1q2w3e4r',
         'HOST': 'serverdw',
         'PORT': '1433',
         'OPTIONS': {
