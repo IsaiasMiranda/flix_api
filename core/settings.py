@@ -82,8 +82,9 @@ DATABASES = {
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'timeout': 30,
-        }
+            'extra_params': 'TrustServerCertificate=yes;',
+            'timeout': 60,
+        },
     }
 }
 
