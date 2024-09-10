@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'DJANGO',
         'USER': 'powerbi_w',
         'PASSWORD': 'ismtech@write',
-        'HOST': '10.2.50.23',
+        'HOST': 'serverdw',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
