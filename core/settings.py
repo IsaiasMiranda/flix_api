@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'DJANGO',
         'USER': 'sa',
         'PASSWORD': '@1q2w3e4r',
-        'HOST': 'serverdw',
+        'HOST': '192.168.0.97',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
